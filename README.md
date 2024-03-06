@@ -4,6 +4,21 @@ This project utilizes machine learning to predict the venom type of different sn
 
 **Video Demonstration and Explanation of Algorithms:**
 
+## Installation
+clone the GitHub repository to your local machine: https://github.com/mirzaahmadi/Venom_Type_Classifier.git
+
+**Requirements:** Python 3.X, matplotlib, sklearn, pandas
+
+## Usage
+### PCA_Snake_Data.py: 
+First, ensure the snake venom dataset you are using is correctly passed on to the pandas function 'read_csv().' Then, in your terminal, run the following command: '**python PCA_Snake_Data.py**'
+
+### snake.py: 
+python PCA_Snake_Data.py **python snake.py complete_snake_dataset.csv (or the name of your dataset)**
+
+### snake_predictions.py: 
+**python snake.py complete_snake_dataset.csv (or the name of your dataset)**. Then, when prompted, input the testing dataset. 
+
 ## How it's made:
 Tech Used: Python
 Libraries: sklearn, matplotlib, pandas
@@ -19,17 +34,4 @@ In the file 'snake.py' the program takes as input the completed snake venom data
 ### Model Evaluation
 To further evaluate the model, the file 'snake_predictions.py' takes as input the completed snake venom dataset, 'complete_snake_dataset.csv', and an incomplete snake venom dataset (without labeled venom type values), 'incomplete_snake_dataset.csv.' After a support vector machine is trained using the completed dataset, the model is evaluated by making venom type predictions on the incomplete dataset. This file outputs the species names in the incomplete dataset along with the predicted venom types, and these predictions can be compared to the actual venom type values of each species (sourced from various scientific sources) in the file 'ANSWERS_incomplete_snake_dataset.csv.'
 
-## Installation
-clone the GitHub repository to your local machine: https://github.com/mirzaahmadi/Venom_Type_Classifier.git
 
-**Requirements:** Python 3.X, matplotlib, sklearn, pandas
-
-## Usage
-#### PCA_Snake_Data.py: 
-First, ensure the snake venom dataset you are using is correctly passed on to the pandas function 'read_csv().' Then, in your terminal, run the following command: '**python PCA_Snake_Data.py**'
-
-#### snake.py: 
-python PCA_Snake_Data.py **python snake.py complete_snake_dataset.csv (or the name of your dataset)**
-
-#### snake_predictions.py: 
-**python snake.py complete_snake_dataset.csv (or the name of your dataset)**. Then, when prompted, input the testing dataset. 
