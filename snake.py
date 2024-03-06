@@ -1,5 +1,5 @@
 """ 
-snake.pyy
+snake.py
 Usage: python snake.py 'dataset'
 
 This file splits the complete_snake_dataset.csv into 70% training data and 30% testing data.
