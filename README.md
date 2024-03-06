@@ -2,7 +2,7 @@
 
 This project utilizes machine learning to predict the venom type of different snake species based solely on the protein composition of their venom. 
 
-**Video Demonstration and Explanation of Algorithms:**
+**Video Demonstration and Explanation of Algorithms:** https://www.youtube.com/watch?v=-6sjRMZIWcw&t=4s 
 
 ## Installation
 clone the GitHub repository to your local machine: https://github.com/mirzaahmadi/Venom_Type_Classifier.git
