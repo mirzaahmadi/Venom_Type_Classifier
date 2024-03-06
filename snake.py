@@ -1,5 +1,5 @@
 """ 
-snake.py
+snake.pyy
 Usage: python snake.py 'dataset'
 
 This file splits the complete_snake_dataset.csv into 70% training data and 30% testing data.
@@ -10,7 +10,7 @@ After training, the model runs on the testing data, and it outputs how many it g
 data that is in the complete_snake_dataset.csv for this testing data)
 The file also outputs:
 A true Neuro rate = the proportion of ACTUAL neuro labels that were accurately identified
-A true Hemo rate = the proportion of ACTUAL hemo labels that were accurately identified
+A true Hemo rate = the proportion of ACTUAL hemo labels that were accurately identified 
 
 """
 
