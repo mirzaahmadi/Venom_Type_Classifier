@@ -1,5 +1,5 @@
 """ 
-snake_predictions.pyy
+snake_predictions.py
 Usage: python snake_predictions.py 'dataset'
 
 This file ultimately takes the 'incomplete_snake_dataset' (which has input protein composition variables but NO output venom type variables) 
