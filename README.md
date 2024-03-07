@@ -20,8 +20,7 @@ In your terminal, run the following command: **python snake.py complete_snake_da
 In your terminal, run the following command: **python snake.py complete_snake_dataset.csv**. Then, when prompted, input the testing dataset, **incomplete_snake_dataset.csv**. 
 
 ## How it's made:
-Tech Used: Python
-Libraries: sklearn, matplotlib, pandas
+Tech Used: Python | Libraries: sklearn, matplotlib, pandas
 
 Leveraging various machine learning libraries, I created three files that take as input a completed snake venom dataset with the following parameters: snake species names, snake venom proteins, and snake venom types. Using this dataset, the program can visualize the data in a PCA plot, use it to train a machine learning model and evaluate this newly-trained model to make venom type predictions for an incomplete dataset. 
 
