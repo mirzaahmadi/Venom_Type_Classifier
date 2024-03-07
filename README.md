@@ -14,10 +14,10 @@ clone the GitHub repository to your local machine: https://github.com/mirzaahmad
 First, ensure the snake venom dataset you are using is correctly passed on to the pandas function 'read_csv().' Then, in your terminal, run the following command: '**python PCA_Snake_Data.py**'
 
 ### snake.py: 
-In your terminal, run the following command: **python snake.py complete_snake_dataset.csv** (or the name of your dataset)
+In your terminal, run the following command: **python snake.py complete_snake_dataset.csv**
 
 ### snake_predictions.py: 
-**python snake.py complete_snake_dataset.csv (or the name of your dataset)**. Then, when prompted, input the testing dataset. 
+In your terminal, run the following command: **python snake.py complete_snake_dataset.csv**. Then, when prompted, input the testing dataset, **incomplete_snake_dataset.csv**. 
 
 ## How it's made:
 Tech Used: Python
